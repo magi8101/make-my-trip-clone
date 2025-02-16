@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* New background image class for Home Page */
+.bg-home {
+  background-image: url("https://iili.io/2pZVpXR.md.jpg") !important;
+  background-size: cover;
+  background-position: center;
+}
+
